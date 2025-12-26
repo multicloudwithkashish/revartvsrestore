@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to My Python App 🚀"
+    return "Welcome to My java App 🚀"
 
 @app.route("/health")
 def health():
