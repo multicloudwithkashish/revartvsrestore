@@ -2,7 +2,7 @@
 from flask import Flask, jsonify
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__lastname__)
 
 @app.route("/")
 def home():
@@ -23,4 +23,4 @@ def user(name):
     })
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)
